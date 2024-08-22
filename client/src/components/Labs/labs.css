@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(29, 35, 46, 0.88);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    line-height: 120%;
+}
+
+.mainInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    text-align: left;
+    width: 1100px;
+    margin-top: 50px;
+    padding: 20px 70px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+h1{
+    font-weight: 700;
+    font-size: 37px;
+    padding-bottom: 20px;
+}
+
+.main-p{
+    padding-bottom: 20px;
+}
+
+.main-p, .p-next, p, .note, .bold{
+    line-height: 150%;
+    font-size: 20px;
+}
+
+.p-next{
+    padding-bottom: 10px;
+}
+
+.note{
+   font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.sql-queries{
+    padding: 2px 5px;
+    color: rgb(183,77,172);
+}
+
+.sql-queries, .sql-syntax-box, .sql-syntax-box-long{
+    background-color: #f2f2f2;
+    border-radius: 7px;
+}
+
+.sql-syntax-box, .sql-syntax-box-long{
+    display: flex;
+    justify-content: space-between;
+    width: max-content;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+}
+
+.sql-syntax-box .keyword, .string{
+    padding-right: 5px;
+}
+
+.sql-syntax-box-long .keyword, .string{
+    padding-right: 5px;
+}
+
+.sql-syntax-box-long {
+    width: 600px;
+}
+.keyword{
+    color: rgb(183,77,172);
+}
+
+.svg-play{
+    cursor: pointer;
+    margin-left: 20px;
+}
+table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: max-content;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+table th{
+    font-weight: 700;
+    padding: 10px 10px;
+}
+
+table th, td{
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+
+.test-button, .button-next{
+    margin-top: auto;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+}
+
+.button-next {
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+/* .heigth-span{
+    visibility: hidden;
+} */
+
+.footer{
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer button{
+    margin-right: 30px;
+}
+
+/* Для тестовой части */
+
+.answerDiv{
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 2px solid #c8d2db;
+    box-shadow: 0 2px 0 1px #c8d2db;
+    padding: 20px 20px;
+}
+
+.afterDiv{
+    pointer-events: none;
+    background-color: #dae6eb;
+}
+
+.selectedAnswer {  
+    background-color: #dae6eb;
+}
+
+.unSelectedAnser {
+    background-color: white;
+}
+
+
+.rightAnswer { 
+    pointer-events: none;
+    background-color: #63ff85;
+}
+
+.badAnsewer {
+    pointer-events: none;
+    background-color: #FF0033;
+}
+
+.dimmed {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.5;
+}
+
+.sql-span{
+    font-weight: bold;
+}
+
+.sql-span, .sql-question, .error-div {
+    font-size: 20px;
+}
+
+.sql-question{
+    line-height: 150%;
+    padding-top: 10px;
+}
+
+textarea{
+    outline: none;
+    border: none;
+    height: 200px;
+    resize: none; 
+}
+
+
+.rightAnswer, .badAnswer, .syntaxError, .attemptDiv{
+    font-size: 20px;
+}
+
+.rightAnswerDiv {
+    font-size: 18px;
+    color: #63ff85;
+}
+
+.badAnswerDiv {
+    font-size: 25px;
+    color: #FF0033;
+}
+
+.syntaxError {
+    color: #ffa500;
+}
+
+.syntax-box-disable{
+    pointer-events: none;
+}
+
+.result{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+}
+
+.left-result, .rigth-result{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-result {
+    width: 60%;
+}
+
+.rigth-result {
+    width: 40%;
+}
+
+.button {
+    width: 200px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.questionTitle, .questionTitleLong{
+    width: 800px;
+    font-size: 25px;
+    font-weight: 700;
+    overflow-wrap: break-word;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.questionTitleLong {
+    width: 960px;
+}
+
+.bottomG{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.table-sql {
+    font-size: 17px;
+    width: max-content;
+}
+
+
+.table-statistic, .table-marks{
+    font-size: 12px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.table-marks{
+    width: max-content;
+}
+
+
+.table-statistic th{
+    font-weight: 700;
+    padding: 10px 10px;
+}
+
+.table-statistic th, td{
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li{
+    padding-bottom: 10px;
+}

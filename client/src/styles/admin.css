@@ -1,0 +1,16 @@
+.admin-input {
+    width: 160px;
+}
+
+.admin-add{
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.admin-add p{
+    margin-top: 5px;
+    padding-right: 15px;
+    
+}

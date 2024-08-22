@@ -1,0 +1,39 @@
+.labs-box{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    background-color: white;
+    width: 700px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.part1{
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.labs-box ul{
+    list-style: none;
+}
+
+.labNumber{
+    font-weight: 700;
+}
+
+.answerLi{
+    cursor: pointer;
+    width: 500px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid #c8d2db;
+    box-shadow: 0 2px 0 1px #c8d2db;
+    padding: 20px 20px;
+}

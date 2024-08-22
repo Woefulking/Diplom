@@ -1,0 +1,138 @@
+body{
+    overflow-x: hidden;
+}
+
+.back{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F6FCFF; 
+}
+
+.why-learn, .what-get{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 300px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.why-learn{
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.titleMain,.titleContent, .why-study, .what-get-title, li{
+    color: rgba(29, 35, 46, 0.88);
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+
+.titleMain {
+    font-size: 48px;
+    padding: 70px;
+}
+
+.titleContent{
+    font-size: 48px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+} 
+
+.why-study {
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.what-get-title{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-size: 48px;
+}
+.what-get-ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    width: 1370px;
+}
+
+.what-get-li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 400px;
+    padding-right : 15px;
+    padding-bottom: 30px;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-input {
+    height: 10px;
+}
+
+.admin, .admin-left, .admin-rigth{
+    display: flex;
+}
+
+.admin{
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.admin-left, .admin-rigth {
+    flex-direction: column;
+    width: 50%;
+}
+
+.admin-add{
+   display: flex;
+   width: 300px;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.admin-input {
+    height: 20px;
+    width: 150px;
+    margin-top: 16px;
+    margin-right: 10px;
+}
+
+.admin-p{
+    line-height: 150%;
+    font-size: 20px;
+}
+
+.admin-button {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.admin-choose-Div{
+    cursor: pointer;
+    font-size: 20px;
+    width: 300px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.admin-choose-Div:active {
+	position:relative;
+	top:1px;
+}
